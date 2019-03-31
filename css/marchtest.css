@@ -1,0 +1,139 @@
+.joinus{
+	border: 5px solid #00BABA;
+	background-color: #00BABA;
+	font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    border-radius: 0px;
+    position: relative;
+    top:0;
+}
+.con{
+	width:auto;
+}
+.btn{
+	background-color: #e8f8f8;
+	width: auto;
+	height: auto;
+}
+.pic{
+	width: auto;
+	height: auto;
+}
+
+.navbar-header{
+	padding:25px;
+	display: flex;
+	}
+ul li{
+	padding:30px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1024px){
+   body{
+   	max-width: 1024px;
+   }
+   .container-fluid{
+	display:flex;
+}
+	}
+@media only screen and (max-width: 425px){
+	 body{
+	 	max-width:425px;
+	 }
+	 .joinus{
+		font-size: 10px;
+	 }
+	.logo{
+		width: 80px;
+		height: 40px;
+	}
+	div .na{
+		text-align: center;
+	}
+	.para1{
+		font-size: 10px;
+	}
+	.flex{
+		display: flex;
+	}
+	ul li{
+		padding: 0px;
+		padding-top: 14px;
+	}
+}
+.top{
+	margin-top: 50px;
+}
+.para{
+	font-size: 19px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body{
+	overflow-x: hidden;
+}
+.para1{
+	font-size: 19px;
+}
+@media only screen and (max-width: 768px){
+	body{
+		max-width:768px;
+	}
+.top{
+	text-align: center;
+}
+div .na{
+	text-align: center;
+}
+img .pic{
+	text-align: center;
+}
+div .none{
+	display: none;
+}
+.na p{
+	text-align: center;
+}
+}
+.gallery{
+	width: 80px;
+	height: 80px;
+	border: 8px solid #ccf2ff;
+}
+.btnn{
+	border: none;
+	background-color: #00BABA;
+	color: white;
+	width: 150px;
+	height: 40px;
+	margin-bottom: 100px;
+}
+.clr{
+	background-color: #eafafa;
+	width: 100%;
+	height: auto;
+}
+.first{
+	cursor: pointer;
+	font-size: 30px;
+	color: #00baba;
+	border-bottom: 2px solid #33cccc;
+}
+.size{
+	font-size: 30px;
+}
+.first:hover{
+	background-color: #eafafa;
+}
+.myBg{
+	background-color:  #eafafa;
+}
